@@ -2,3 +2,67 @@
 /home/eeb177-student/Desktop/eeb-177/Class-Work/classwork-Tues-1-17.txt
 /home/eeb177-student/Desktop/eeb-177/Class-Work/classwork-thursday-1-19.txt
 /home/eeb177-student/Desktop/eeb-177/Class-Work/classwork-tuesday-1-24.txt
+ 
+  730  cd Desktop
+  731  cd eeb-177
+  732  cd Class-Work
+  733  gedit classwork-tuesday-1-24.txt
+  734  git add classwork-tuesday-1-24.txt
+  735  git status
+  736  git commit -m "tuesday classwork"
+  737  git push
+  738  cd ../
+  739  cd CSB/unix
+  740  cd sandbox
+  741  wget http://tinyurl.com/cep-taxa -O cep-taxa.txt
+  742  less cep-taxa.txt
+  743  grep -w Orchidacea cep-taxa.txt
+  744  grep Orchidacea cep-taxa.txt
+  745  grep -c Orchidacea cep-taxa.txt
+  746  grep -i falcon cep-taxa.txt
+  747  grep -i macaws cep-txa.txt
+  748  grep -i macaws cep-taxa.txt
+  749  grep -i ara cep-taxa.txt
+  750  grep Ara cep-taxa.txt
+  751  grep -i -w ara cep-taxa.txt
+  752  grep -B 3 Cebus cep-taxa.txt
+  753  grep -n iguana cep-taxa.txt
+  754  grep -n -i iguana cep-taxa.txt
+  755  grep -i -v -c ara cep-taxa.txt
+  756  grep -i -v -c -w ara cep-taxa.txt
+  757* 
+  758  grep -i -v -c -w ara cep-taxa.txt > non-macaws.txt
+  759  ls -l
+  760  find .
+  761  ls -l
+  762  find .*
+  763  cd ../
+  764  find .*
+  765  cd sandbox
+  766  ls ../
+  767  find ../data
+  768  find ~/Desktop/eeb-177/CSB/unix/data
+  769  find ../data | wc -l
+  770  find ../data/ -name "n30.txt"
+  771  cd ../data/
+  772  ls
+  773  cd ../sandbox
+  774  find ../data/ -iname "*about"
+  775  find ../data/ -iname "*about*"
+  776  find ~/Desktop/eeb-177/Class-Work/ -iname "*classwork*"
+  777  find ~/Desktop/eeb-177/Class-Work/ -iname "*classwork*" >> ~/Desktop/eeb-177/Class-Work/classwork-tuesday-1-24.txt
+  778  cd ~
+  779  cd Desktop/eeb-177/Class-Work
+  780  git add classwork-tuesday-1-24.txt
+  781  git status
+  782  git commit -m "finding classwork files"
+  783  git push
+  784  cd ../CSB/unix/sandbox
+  785  find ../data -maxdepth 1 -name "*.txt" | wc -l
+  786  find ../data -name "*.txt" | wc -l
+  787  ls -l
+  788  touch permissions.txt
+  789  ls -l
+  790  chmod u=rwx permissions.txt
+  791  ls -l
+  792  history >> ~/Desktop/eeb-177/Class-Work/classwork-tuesday-1-24.txt
