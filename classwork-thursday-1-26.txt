@@ -1,0 +1,70 @@
+  940  ls -l
+  941  cd Desktop/eeb-177/Class-Work
+  942  gedit classwork-thursday-1-26.txt
+  943  git add classwork-thursday-1-26.txt
+  944  git status
+  945  git commit -m "adding thursday classwork"
+  946  git push
+  947  touch permissions.txt
+  948  ls -a
+  949  ls -l
+  950  chmod u=rwx permssions.txt
+  951  chmod u=rwx permissions.txt
+  952  ls -l
+  953  chmod u-x permissions.txt
+  954  ls -l
+  955  gedit classwork-thursday-1-26.txt
+  956  gedit 
+  957  ls -l
+  958  ls /usr/bin
+  959  ls /bin
+  960  $Path
+  961  $PATH
+  962  cd
+  963  mkdir scripts
+  964  ls
+  965  cd scripts
+  966  ls
+  967  mv ~/Desktop/eeb-177/Class-Work/dir.sh .
+  968  ls
+  969  cd
+  970  gedit .bash_profile
+  971  ls -a
+  972  gedit .bash_profile
+  973  ls
+  974  ls -a
+  975  gedit .profile
+  976  sudo reboot
+  977  $PATH
+  978  gedit .profile 
+  979  cd Desktop
+  980  dir.sh
+  981  gedit dir.sh
+  982  cd scripts
+  983  cd ..
+  984  cd scripts
+  985  gedit dir.sh
+  986  cd
+  987  dir.sh
+  988  cd scripts
+  989  gedit in_class_script.sh
+  990  ls -l
+  991  chmod u+x in_class_script.sh 
+  992  cd ~/Desktop/eeb-177/lab-work
+  993  in_class_script.sh 
+  994  cd ../
+  995  cd class-work
+  996  cd Class-Work
+  997  ipython
+  998  cd ../
+  999  cd scripts
+ 1000  git init
+ 1001  git add dir.sh
+ 1002  git commit -m "in class scripts"
+ 1003  git remote add origin https://github.com/erinsolis29/scripts.git
+ 1004  git push -u origin master
+ 1005  cd Desktop
+ 1006  cd eeb-177
+ 1007  Class-Work
+ 1008  cd Class-Work
+ 1009  history 70 | less >> ~/Desktop/eeb-177/Class-Work/classwork-thursday-1-26.txt 
