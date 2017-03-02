@@ -1,0 +1,9 @@
+---
+title: "classwork-thurs-3-2.Rmd"
+output: md_document
+---
+
+```{r}
+library(ggplot2)
+setwd("/home/eeb177-student/Desktop/eeb-177/Class-Work/canids")
+
