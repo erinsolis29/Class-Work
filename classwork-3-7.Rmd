@@ -1,0 +1,50 @@
+---
+title: "classwork-3-7.Rmd"
+output: html_document
+---
+
+```{r}
+library(paleobioDB)
+library(paleotree)
+
+```
+
+```{r}
+data(graptPBDB)
+head(graptOccPBDB)
+
+```
+
+
+```{r}
+data(graptPBDB)
+#get species sorted occurances
+occSpecies <- taxonSortPBDBocc(graptOccPBDB, rank = "species")
+#plot species occurances
+plotOccData(occSpecies, groupLabel = "Species")
+#convert occurance data to "timelist" format so it shows min and max age
+graptTimeSpecies <- occData2timeList(occList = occSpecies)
+#plot diversity through time
+taxicDivDisc(graptTimeSpecies)
+
+head(graptTimeSpecies)
+
+#this will send all of the graphs coded below the pdf line to a pdf not the console
+#will stop sending them to the pdf whenever the dev command is entered
+pdf(file = "dtt.pdf")
+taxicDivDisc(graptTimeSpecies)
+#taxicDivDisc(graptTimeGenus)
+#taxicDivDisc(graptTimeFamily)
+dev.off()
+```
+
+
+
+```{r}
+#occGenera <- taxonSortPBDBocc(graptOccPBDB, rank = "genus")
+#graptTimeGenus <- occData2timeList(occList = occGenera)
+#graptTimeFamily <- occData2timeList(occList = occFamily)
+
+
+```
+
